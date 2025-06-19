@@ -1,24 +1,27 @@
 <resources>
     <string name="app_name">Calculadora Simples MVVM</string>
 
-    <string name="button_clean">C</string>
-    <string name="button_equal">=</string>
-    <string name="button_point">.</string>
+    <string name="text_button_clean">C</string>
+    <string name="text_button_equal">=</string>
+    <string name="text_button_dot">.</string>
+    <string name="text_button_perc">%</string>
 
-    <string name="button_plus">+</string>
-    <string name="button_minus">-</string>
-    <string name="button_mult">x</string>
-    <string name="button_div">÷</string>
+    <string name="text_button_plus">+</string>
+    <string name="text_button_sub">-</string>
+    <string name="text_button_mult">x</string>
+    <string name="text_button_div">÷</string>
 
-    <string name="button_0">0</string>
-    <string name="button_1">1</string>
-    <string name="button_2">2</string>
-    <string name="button_3">3</string>
-    <string name="button_4">4</string>
-    <string name="button_5">5</string>
-    <string name="button_6">6</string>
-    <string name="button_7">7</string>
-    <string name="button_8">8</string>
-    <string name="button_9">9</string>
-    
+    <string name="text_button_0">0</string>
+    <string name="text_button_1">1</string>
+    <string name="text_button_2">2</string>
+    <string name="text_button_3">3</string>
+    <string name="text_button_4">4</string>
+    <string name="text_button_5">5</string>
+    <string name="text_button_6">6</string>
+    <string name="text_button_7">7</string>
+    <string name="text_button_8">8</string>
+    <string name="text_button_9">9</string>
+
+    <string name="cont_apagar">Apagar</string>
+
 </resources>
