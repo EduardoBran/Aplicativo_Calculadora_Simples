@@ -1,7 +1,7 @@
 package com.luizeduardobrandao.calculadorasimplesmvvm.model
 
 // CalculatorModel: mantém o estado da expressão como uma lista de tokens
-// * e expõe métodos para inserir, apagar, limpar e calcular o resultado.
+// e expõe métodos para inserir, apagar, limpar e calcular o resultado.
 class CalculatorModel {
 
     // Cada token é ou um número (ex: "12", "3.5"), um operador ("+", "-", "×", "÷"), "." e "%".
@@ -15,7 +15,6 @@ class CalculatorModel {
             tokens.joinToString(separator = "")
         }
     }
-
 
      // Insere um token segundo a lógica:
      // - Se for dígito ou ponto e o último token também for número, concatena;
@@ -172,6 +171,4 @@ class CalculatorModel {
             String.format("%.6f", value).trimEnd('0').trimEnd('0')
         }
     }
-
-
 }
