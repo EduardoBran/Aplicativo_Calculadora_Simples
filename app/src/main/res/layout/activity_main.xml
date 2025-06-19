@@ -124,7 +124,7 @@
             android:padding="12dp">
 
             <TextView
-                android:id="@+id/textview_formula"
+                android:id="@+id/textviewFormula"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:autoSizeMaxTextSize="16sp"
@@ -135,7 +135,7 @@
                 android:text="2+2+2"
                 android:textColor="@color/gray"
                 android:textSize="16sp"
-                app:layout_constraintBottom_toTopOf="@id/textview_resultado"
+                app:layout_constraintBottom_toTopOf="@id/textviewResultado"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -143,7 +143,7 @@
                 app:layout_constraintVertical_chainStyle="spread_inside" />
 
             <TextView
-                android:id="@+id/textview_resultado"
+                android:id="@+id/textviewResultado"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:autoSizeMaxTextSize="56sp"
@@ -157,7 +157,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/textview_formula"
+                app:layout_constraintTop_toBottomOf="@id/textviewFormula"
                 app:layout_constraintVertical_chainStyle="spread_inside" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
