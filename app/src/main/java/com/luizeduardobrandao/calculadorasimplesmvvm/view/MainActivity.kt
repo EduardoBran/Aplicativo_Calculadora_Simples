@@ -19,3 +19,8 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+
+// - Faz binding do layout.
+// - Observa as LiveData do ViewModel para atualizar o TextView.
+// - Configura os onClickListener dos botões para chamar métodos do ViewModel.
+// - Por que? A View só “mostra” e “escuta” dados, sem processar nenhuma regra de cálculo.
