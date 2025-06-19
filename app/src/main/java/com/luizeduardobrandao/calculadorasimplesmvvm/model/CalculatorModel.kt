@@ -95,7 +95,7 @@ class CalculatorModel {
     private fun evaluateExpression(): Double {
 
         // 1) Converte cada token String em um item misto: Double para números, String para operadores.
-        //    Exemplo: tokens = ["12", "+", "3", "×", "4"]
+        //    Exemplo: tokens = ["12", "+", "3", "x", "4"]
         //    → items = [12.0, "+", 3.0, "×", 4.0]
         val items = mutableListOf<Any>()
 
@@ -104,7 +104,7 @@ class CalculatorModel {
                 // Se for composto apenas de dígitos e ponto, converte para Double
                 tok.matches(Regex("[0-9.]+")) -> items += tok.toDouble()
                 // Se for um operador válido, mantém como String
-                tok in listOf("+", "-", "×", "÷") -> items += tok
+                tok in listOf("+", "-", "x", "÷") -> items += tok
                 // Caso contrário, erro
                 else -> throw IllegalArgumentException("Token inválido: $tok")
             }

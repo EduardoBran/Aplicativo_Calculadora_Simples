@@ -45,7 +45,5 @@ class CalculatorViewModel: ViewModel() {
     fun onEquals() {
         _result.value = viewModel.calculate()
     }
-
-
 }
 
