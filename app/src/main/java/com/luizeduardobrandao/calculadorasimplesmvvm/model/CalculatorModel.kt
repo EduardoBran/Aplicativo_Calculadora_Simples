@@ -22,7 +22,7 @@ class CalculatorModel {
     fun input(token: String){
         when {
             // verifica se a string token contem exatamente um caractere que seja um dígito de 0 a 9 ou um ponto "."
-            token.matches(Regex("[0-9].")) -> {
+            token.matches(Regex("[0-9]")) || token == "." -> {
                 // se já existe um token anterior e ele também é um número (ou decimal) concatena com "+"
                 if (tokens.isNotEmpty() && tokens.last().matches(Regex("[0-9.]+"))){
                     tokens[tokens.lastIndex] = tokens.last() + token
